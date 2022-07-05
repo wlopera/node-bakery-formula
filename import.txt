@@ -1,0 +1,64 @@
+-----------------------------------------------------------------------------
+Crear proyecto y base de datos en Mongo Atlas
+-----------------------------------------------------------------------------
+ 1.- Crear Organizacion (wlopera)
+ 2.- Crear proyecto (bakery_formula)
+ 3.- Crear Cluster: JsNode (puede contener varias Bases de datos)
+ 4.- Crear User: user/pass: admin/_pASSWORD_
+ 5.- Crear acceso al cluster: (ALLOW ACCESS FROM ANYWHERE) 
+      - user admin
+      - Add a connection IP address: Allow Access  from AnyWhere
+      - Create a database user: user/password: admin/_PASSWORD_
+ 6.- Metodo de conexión:
+    - mongodb+srv://admin:<password>@cluster0.eeebs1l.mongodb.net/test 
+
+-----------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+Crear Proyecto Node en VSC 
+-----------------------------------------------------------------------------
+$ npm init -y
+-----------------------------------------------------------------------------
+ - Agregar valores package Json:
+     - "description": "Plsroyecto de Node con Mongo DB - Formula Panadera",
+      "scripts": {
+          "dev": "set DEBUG=app:* & nodemon index.js"
+      },
+     - "keywords": [
+          "node",
+          "Javascript",
+          "MongoDB"
+          ],
+     - "author": "wlopera",
+     - "license": "MIT"
+-----------------------------------------------------------------------------
+- Instalar librerias
+  - express: npm i express -> 4.18.1
+  - Mongo: npm i mongodb@4.6.0 -> 4.6.0 
+  - dotenv: npm i dotend  -> 16.0.1
+  - nodemon: npm i nodemon --save-dev (solo para desarrollo) -> 2.0.18
+  - http-errors: mp, i http-errors -> 2.0.0
+
+-----------------------------------------------------------------------------
+- Agregar archivo: .gitignore -> control de data al repo
+
+-----------------------------------------------------------------------------
+- Crear carpetas
+  - src
+     - config
+     - database
+     - bakery
+
+-----------------------------------------------------------------------------
+ - Crear servidor con express
+     - Crear arcvhivo .env (Parámetras DEV)
+     - archivo de configuración: \src\config\index.js
+     - archivo inicial: index.js (raiz del proyecto)
+
+ - Levantar servidor: npm run dev
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
