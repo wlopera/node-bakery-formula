@@ -2,14 +2,14 @@ const { ObjectId } = require("mongodb");
 const { Database } = require("../database/index");
 // const { ProductsUtil } = require("../util/util");
 
-const COLLECTION = "flours";
+const COLLECTION = "Ingredients";
 
 const getAll = async () => {
   const collection = await Database(COLLECTION);
   return await collection.find({}).toArray();
 };
 
-const update = async (id, flour) => {
+const update = async (id, ingredient) => {
   const collection = await Database(COLLECTION);
 
   // Crear filtro de actualizacion
@@ -17,7 +17,7 @@ const update = async (id, flour) => {
 
   // Crear documento a actualizar
   const updateDoc = {
-    $set: flour,
+    $set: ingredient,
   };
 
   // Instrucion por si no existe el registro, se crea uno nuevo
@@ -28,21 +28,21 @@ const update = async (id, flour) => {
   return result.modifiedCount;
 };
 
-const create = async (flour) => {
+const create = async (ingredient) => {
   const collection = await Database(COLLECTION);
-  const result = await collection.insertOne(flour);
+  const result = await collection.insertOne(ingredient);
   return result.insertedId;
 };
 
-const deleteFlour = async (id) => {
+const deleteIngredient = async (id) => {
   const collection = await Database(COLLECTION);
   const result = await collection.deleteOne({ _id: ObjectId(id) });
   return result.deletedCount;
 };
 
-module.exports.FlourService = {
+module.exports.IngredientService = {
   getAll,
   create,
   update,
-  delete: deleteFlour,
+  delete: deleteIngredient,
 };

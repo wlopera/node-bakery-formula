@@ -4,12 +4,11 @@ const { FlourController } = require("./controller");
 const router = express.Router();
 
 module.exports.FlourAPI = (app) => {
-  router.get("/", FlourController.getFlours); //http"//localhost:8585/api/flours/
-  // .get("/report", ProductsController.generateReport) //http"//localhost:3000/api/report/
-  // .get("/:id", ProductsController.getProduct) //http"//localhost:3000/api/products/25
-  // .post("/", ProductsController.createProduct) //http"//localhost:3000/api/products/
-  // .put("/:id", ProductsController.updateProduct) //http"//localhost:3000/api/products/
-  // .delete("/:id", ProductsController.deleteProduct); //http"//localhost:3000/api/products/25
+  router
+    .get("/", FlourController.getFlours) // http"//localhost:8585/api/flours/
+    .post("/", FlourController.createFlour) // http"//<url>:<port>/api/flours/
+    .put("/:id", FlourController.updateFlour) // http"//<url>:<port>/api/flours/
+    .delete("/:id", FlourController.deleteFlour); // http"//<url>:<port>/api/flours/25
 
   app.use("/api/flours", router);
 };

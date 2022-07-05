@@ -9,8 +9,8 @@ Crear proyecto y base de datos en Mongo Atlas
       - user admin
       - Add a connection IP address: Allow Access  from AnyWhere
       - Create a database user: user/password: admin/_PASSWORD_
- 6.- Metodo de conexión:
-    - mongodb+srv://admin:<password>@cluster0.eeebs1l.mongodb.net/test 
+ 6.- Metodo de conexión: Mongo para App (JS)
+    - mongodb+srv://admin:<password>@cluster0.naqufnx.mongodb.net/?retryWrites=true&w=majority 
 
 -----------------------------------------------------------------------------
 
@@ -46,15 +46,19 @@ $ npm init -y
 -----------------------------------------------------------------------------
 - Crear carpetas
   - src
-     - config
-     - database
-     - bakery
+    - common
+    - config
+    - database
+    - flours
+    - ingredients
 
 -----------------------------------------------------------------------------
  - Crear servidor con express
      - Crear arcvhivo .env (Parámetras DEV)
-     - archivo de configuración: \src\config\index.js
-     - archivo inicial: index.js (raiz del proyecto)
+     - Archivo de configuración: \src\config\index.js
+     - Archivo inicial: index.js (raiz del proyecto)
+     - Crear Apis: servicios, controladores e index para Harinas e ingredientes
+     - Crear archivo para el servidor e integrar los apis
 
  - Levantar servidor: npm run dev
 -----------------------------------------------------------------------------

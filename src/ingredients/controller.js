@@ -1,25 +1,25 @@
-const { FlourService } = require("./services");
+const { IngredientService } = require("./services");
 const { Response } = require("../common/response");
 const CreateError = require("http-errors");
 
-const getFlours = async (req, res) => {
+const getIngredients = async (req, res) => {
   try {
-    const flours = await FlourService.getAll();
-    Response.success(res, 200, "Lista de harinas", flours);
+    const ingredients = await IngredientService.getAll();
+    Response.success(res, 200, "Lista de ingredientes", ingredients);
   } catch (error) {
     console.error(error);
     Response.error(res);
   }
 };
 
-const createFlour = async (req, res) => {
+const createIngredient = async (req, res) => {
   try {
     const { body } = req;
     if (!body || Object.keys(body).length === 0) {
       Response.error(res, new CreateError.BadRequest());
     } else {
-      const insertedId = await FlourService.create(body);
-      Response.success(res, 201, "Harina agregada", insertedId);
+      const insertedId = await IngredientService.create(body);
+      Response.success(res, 201, "Ingrediente agregado", insertedId);
     }
   } catch (error) {
     console.log(error);
@@ -27,7 +27,7 @@ const createFlour = async (req, res) => {
   }
 };
 
-const updateFlour = async (req, res) => {
+const updateIngredient = async (req, res) => {
   try {
     const {
       params: { id },
@@ -36,9 +36,9 @@ const updateFlour = async (req, res) => {
     if (!body || Object.keys(body).length === 0) {
       Response.error(res, new CreateError.BadRequest());
     } else {
-      const modifiedCount = await FlourService.update(id, body);
+      const modifiedCount = await IngredientService.update(id, body);
       if (modifiedCount === 1) {
-        Response.success(res, 200, `Harina ${id} modificada`);
+        Response.success(res, 200, `Ingrediente ${id} modificado`);
       } else {
         Response.error(res, new CreateError.NotFound());
       }
@@ -49,15 +49,15 @@ const updateFlour = async (req, res) => {
   }
 };
 
-const deleteFlour = async (req, res) => {
+const deleteIngredient = async (req, res) => {
   try {
     const {
       params: { id },
     } = req;
 
-    const result = await FlourService.delete(id);
+    const result = await IngredientService.delete(id);
     if (result === 1) {
-      Response.success(res, 200, `Harina ${id} borrada`);
+      Response.success(res, 200, `Ingrediente ${id} borrado`);
     } else {
       Response.error(res, new CreateError.NotFound());
     }
@@ -67,9 +67,9 @@ const deleteFlour = async (req, res) => {
   }
 };
 
-module.exports.FlourController = {
-  getFlours,
-  createFlour,
-  updateFlour,
-  deleteFlour,
+module.exports.IngredientController = {
+  getIngredients,
+  createIngredient,
+  updateIngredient,
+  deleteIngredient,
 };
