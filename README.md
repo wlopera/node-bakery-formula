@@ -90,6 +90,24 @@ $ npm init -y
    - Ver logs: heroku logs -n 200
    - Procesos de consola de heroku: > heroku run rails console
 ```
+
+Package.json:
+```
+
+  // tarea start debe ser la primera
+  "scripts": {
+    "start": "node index.js",
+    "dev": "set DEBUG=app:* & nodemon index.js"
+  },
+  
+  // Puede requerir la version de node y npm
+  "engines": {
+    "node": "14.17.0",
+    "npm": "8.1.3"
+  },
+ 
+```
+
 ![Captura](https://user-images.githubusercontent.com/7141537/177861047-9e5d5381-81b9-4ec5-b95a-46c0594d32b5.PNG)
 ![Captura1](https://user-images.githubusercontent.com/7141537/177861044-3404f071-6309-44a2-84c7-e88ce08f36a7.PNG)
 
