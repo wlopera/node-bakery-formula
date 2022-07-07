@@ -1,10 +1,12 @@
 const express = require("express");
+const cors = require("cors");
 const { Config } = require("./src/config/index");
 
 const { FlourAPI } = require("./src/flours/index");
 const { IngredientAPI } = require("./src/ingredients/index");
 
 const app = express();
+app.use(cors());
 
 // Escribir parametros en el request
 app.use(express.json());
