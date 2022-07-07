@@ -19,7 +19,7 @@ const createFlour = async (req, res) => {
       Response.error(res, new CreateError.BadRequest());
     } else {
       const insertedId = await FlourService.create(body);
-      Response.success(res, 201, "Harina agregada", insertedId);
+      Response.success(res, 200, "Harina agregada", insertedId);
     }
   } catch (error) {
     console.log(error);
