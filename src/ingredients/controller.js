@@ -22,7 +22,7 @@ const createIngredient = async (req, res) => {
       Response.success(res, 201, "Ingrediente agregado", insertedId);
     }
   } catch (error) {
-    console.log(error);
+    console.error(error);
     Response.error(res);
   }
 };
@@ -44,7 +44,7 @@ const updateIngredient = async (req, res) => {
       }
     }
   } catch (error) {
-    console.log(error);
+    console.error(error);
     Response.error(res);
   }
 };
@@ -62,7 +62,7 @@ const deleteIngredient = async (req, res) => {
       Response.error(res, new CreateError.NotFound());
     }
   } catch (error) {
-    console.log(error);
+    console.error(error);
     Response.error(res);
   }
 };

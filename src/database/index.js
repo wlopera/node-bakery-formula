@@ -11,7 +11,7 @@ module.exports.Database = (collection) =>
         connection = await client.connect();
         console.log("Nueva conexión realizada con MongoDB Atlas");
       }
-      console.log("Retornando la colección requerida");
+      // console.log("Retornando la colección requerida");
       const db = connection.db(Config.mongoDbname);
       res(db.collection(collection));
     } catch (error) {
