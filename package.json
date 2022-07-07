@@ -24,6 +24,10 @@
   "devDependencies": {
     "nodemon": "^2.0.18"
   },
+  "engines": {
+    "node": "14.17.0",
+    "npm": "8.1.3"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://wlopera: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@github.com/wlopera/node-bakery-formula.git"
