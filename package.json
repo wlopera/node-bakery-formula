@@ -23,5 +23,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.18"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://wlopera: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@github.com/wlopera/node-bakery-formula.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wlopera/node-bakery-formula/issues"
+  },
+  "homepage": "https://github.com/wlopera/node-bakery-formula#readme"
 }
