@@ -16,6 +16,6 @@ FlourAPI(app);
 IngredientAPI(app);
 
 // Levantar servidor
-app.listen(Config.port, () =>
-  console.log(`Servidor levantado en el puerto ${Config.port}`)
+app.listen(Config.port || 8000, () =>
+  console.log(`Servidor levantado en el puerto ${Config.port || 8000}`)
 );
