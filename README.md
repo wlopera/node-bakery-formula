@@ -72,3 +72,25 @@ $ npm init -y
 ![Captura1](https://user-images.githubusercontent.com/7141537/177805258-6ba2d810-6faa-467a-bd21-8362142820d4.PNG)
 ![Captura](https://user-images.githubusercontent.com/7141537/177805263-f2f66598-9d59-406f-b474-5337dec30f02.PNG)
 
+## Publicar en Heroku
+```
+1. Instalar Heroku (window: si no esta instalado)
+2. Levantar Heroku
+   > heroku login
+   
+   - Clonar heroku, si el proyecto no esta en un repo: 
+      > heroku git:clone -a node-bakery-formula 
+ 3. Deploy Heroku
+  > git add .
+  > git commit -am "make it better"
+  > git push heroku master
+  
+ Notas:
+   - Relanzar Heroku: > heroku restart
+   - Ver logs: heroku logs -n 200
+   - Procesos de consola de heroku: > heroku run rails console
+```
+![Captura](https://user-images.githubusercontent.com/7141537/177861047-9e5d5381-81b9-4ec5-b95a-46c0594d32b5.PNG)
+![Captura1](https://user-images.githubusercontent.com/7141537/177861044-3404f071-6309-44a2-84c7-e88ce08f36a7.PNG)
+
+
