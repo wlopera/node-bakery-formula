@@ -93,4 +93,9 @@ $ npm init -y
 ![Captura](https://user-images.githubusercontent.com/7141537/177861047-9e5d5381-81b9-4ec5-b95a-46c0594d32b5.PNG)
 ![Captura1](https://user-images.githubusercontent.com/7141537/177861044-3404f071-6309-44a2-84c7-e88ce08f36a7.PNG)
 
+Link de publicación del API: https://node-bakery-formula.herokuapp.com/
+![Captura](https://user-images.githubusercontent.com/7141537/177861388-a0272745-8f8f-4a56-b174-ace9b5fcbcc4.PNG)
+
+
+
 
