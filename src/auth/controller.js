@@ -1,6 +1,5 @@
 const { AuthService } = require("./services");
 const { Response } = require("../common/response");
-const CreateError = require("http-errors");
 
 const jwt = require("jsonwebtoken");
 
@@ -25,9 +24,14 @@ const login = async (req, res) => {
 
     if (user) {
       const token = jwt.sign(
-        { userId: user.id, email: user.email },
+        {
+          userId: user.id,
+          username: user.username,
+          rol: user.rol,
+          email: user.email,
+        },
         TOKEN_KEY,
-        { expiresIn: "2h" }
+        { expiresIn: 1800 } // 30 seg
       );
       Response.success(res, 200, `Usuario conectado`, { ...user, token });
     } else {
@@ -42,54 +46,7 @@ const login = async (req, res) => {
   }
 };
 
-const getSalesbyUser = async (req, res) => {
-  try {
-    const {
-      params: { id },
-    } = req;
-
-    const sales = AuthService.getSalesbyUser(id);
-    if (sales) {
-      Response.success(res, 200, "Ventas", sales);
-    } else {
-      Response.error(res, {
-        statusCode: 400,
-        message: "No tiene ventas actualmente",
-      });
-    }
-  } catch (error) {
-    console.error(error);
-    Response.error(error);
-  }
-};
-
-const verifyToken = (req, res, next) => {
-  const authHeader = req.headers["authorization"];
-  const token = authHeader && authHeader.split(" ")[1];
-  console.log("authHeader: ", authHeader, token, authHeader.split(" "));
-  if (token) {
-    jwt.verify(token, TOKEN_KEY, (err, user) => {
-      if (err) {
-        Response.error(res, {
-          statusCode: 403,
-          message: "Token invalido",
-        });
-      }
-      console.log("user, user");
-      req.user = user;
-      next();
-    });
-  } else {
-    Response.error(res, {
-      statusCode: 403,
-      message: "Token requerido",
-    });
-  }
-};
-
 module.exports.AuthController = {
   getUsers,
   login,
-  getSalesbyUser,
-  verifyToken,
 };

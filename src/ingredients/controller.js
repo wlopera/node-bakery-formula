@@ -19,7 +19,7 @@ const createIngredient = async (req, res) => {
       Response.error(res, new CreateError.BadRequest());
     } else {
       const insertedId = await IngredientService.create(body);
-      Response.success(res, 201, "Ingrediente agregado", insertedId);
+      Response.success(res, 200, "Ingrediente agregado", insertedId);
     }
   } catch (error) {
     console.error(error);
