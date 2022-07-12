@@ -63,7 +63,7 @@ $ npm init -y
  - Levantar servidor: npm run dev
 -----------------------------------------------------------------------------
 -----------------------------------------------------------------------------
-Publicar en Heroku
+Publicar en Heroku: El repo debe ser: master
 -----------------------------------------------------------------------------
 1. Instalar Heroku (window: si no esta instalado)
 2. Levantar Heroku
