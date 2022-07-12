@@ -72,7 +72,7 @@ $ npm init -y
 ![Captura1](https://user-images.githubusercontent.com/7141537/177805258-6ba2d810-6faa-467a-bd21-8362142820d4.PNG)
 ![Captura](https://user-images.githubusercontent.com/7141537/177805263-f2f66598-9d59-406f-b474-5337dec30f02.PNG)
 
-## Publicar en Heroku
+## Publicar en Heroku: Repo master
 ```
 1. Instalar Heroku (window: si no esta instalado)
 2. Levantar Heroku
