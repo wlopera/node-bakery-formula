@@ -7,8 +7,8 @@ const TOKEN_KEY = "XaTvnErxRETbVcqaLI5dqMI115eNlp5y";
 const verifyToken = (req, res, next) => {
   const authHeader = req.headers["authorization"];
   const token = authHeader && authHeader.split(" ")[1];
-  console.log("authHeader:", authHeader);
-  console.log("token:", token);
+  // console.log("authHeader:", authHeader);
+  // console.log("token:", token);
 
   if (token) {
     jwt.verify(token, TOKEN_KEY, (err, user) => {

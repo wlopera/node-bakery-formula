@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const { Config } = require("./src/config/index");
 
-const { FlourAPI } = require("./src/flours/index");
+const { FlourAPI } = require("./src/flours-json/index");
 const { IngredientAPI } = require("./src/ingredients/index");
 const { RecipeAPI } = require("./src/recipes/index");
 const { AuthAPI } = require("./src/auth/index");
