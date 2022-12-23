@@ -4,7 +4,7 @@ const { Config } = require("./src/config/index");
 
 const { FlourAPI } = require("./src/flours-json/index");
 const { IngredientAPI } = require("./src/ingredients-json/index");
-const { RecipeAPI } = require("./src/recipes/index");
+const { RecipeAPI } = require("./src/recipes-json/index");
 const { AuthAPI } = require("./src/auth/index");
 
 const app = express();

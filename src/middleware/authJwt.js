@@ -12,7 +12,7 @@ const verifyToken = (req, res, next) => {
 
   if (token) {
     jwt.verify(token, TOKEN_KEY, (err, user) => {
-      console.log(12345678, err);
+      //console.log(12345678, err);
       if (err) {
         Response.error(res, {
           statusCode: 403,
@@ -20,7 +20,7 @@ const verifyToken = (req, res, next) => {
         });
         return;
       }
-      console.log("user, user");
+      // console.log("user:", user);
       req.user = user;
       next();
     });
