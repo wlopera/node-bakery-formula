@@ -16,7 +16,10 @@ const createIngredient = async (req, res) => {
   try {
     const { body } = req;
     if (!body || Object.keys(body).length === 0) {
-      Response.error(res, new CreateError.BadRequest());
+      Response.error(
+        res,
+        new CreateError(422, "No se pudo agregar el ingrediente")
+      );
     } else {
       const insertedId = await IngredientService.create(body);
       Response.success(res, 200, "Ingrediente agregado", insertedId);
@@ -38,9 +41,17 @@ const updateIngredient = async (req, res) => {
     } else {
       const modifiedCount = await IngredientService.update(id, body);
       if (modifiedCount === 1) {
-        Response.success(res, 200, `Ingrediente ${id} modificado`);
+        Response.success(
+          res,
+          200,
+          `Ingrediente ${id} modificado`,
+          req.body.label
+        );
       } else {
-        Response.error(res, new CreateError.NotFound());
+        Response.error(
+          res,
+          new CreateError(404, `No se encontro el ingrediente [id: ${id}]`)
+        );
       }
     }
   } catch (error) {
@@ -59,7 +70,10 @@ const deleteIngredient = async (req, res) => {
     if (result === 1) {
       Response.success(res, 200, `Ingrediente ${id} borrado`);
     } else {
-      Response.error(res, new CreateError.NotFound());
+      Response.error(
+        res,
+        new CreateError(404, `No se encontro el ingrediente [id: ${id}]`)
+      );
     }
   } catch (error) {
     console.error(error);
