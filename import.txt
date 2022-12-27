@@ -87,6 +87,7 @@ Publicar en Heroku: El repo debe ser: master
    
    - Clonar heroku, si el proyecto no esta en un repo: 
       > heroku git:clone -a node-bakery-formula 
+      > cd node-bakery-formula
  3. Deploy Heroku
   > git add .
   > git commit -am "make it better"
@@ -98,6 +99,7 @@ Publicar en Heroku: El repo debe ser: master
    - Procesos de consola de heroku: > heroku run rails console
    - Recordar tener el proyecto en master
    - heroku git:remote -a api-rest-example-wlopera
+   - heroku ps:scale web=1
 -----------------------------------------------------------------------------
 
 -----------------------------------------------------------------------------
