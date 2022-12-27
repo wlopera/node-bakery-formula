@@ -94,9 +94,11 @@ Publicar en Heroku: El repo debe ser: master
   
  Notas:
    - Relanzar Heroku: > heroku restart
-   - Ver logs: heroku logs -n 200
+   - Ver logs: heroku logs -n 200  / heroku logs --tail
    - Procesos de consola de heroku: > heroku run rails console
    - Recordar tener el proyecto en master
+   - heroku git:remote -a api-rest-example-wlopera
 -----------------------------------------------------------------------------
+
 -----------------------------------------------------------------------------
 -----------------------------------------------------------------------------
