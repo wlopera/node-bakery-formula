@@ -2,12 +2,13 @@ const fs = require("fs");
 const { uuid } = require("uuidv4");
 const path = require("path");
 const rootDir = path.join(__dirname, "../");
+const filePath = path.join("/tmp", "flours.json");
 
-const dataPath = path.resolve(`${rootDir}/flours.json`);
-console.log(11111, rootDir);
+const dataPath = path.resolve(`${filePath}`);
+console.log(11111, "./tmp/flours.json");
 
 const getAll = () => {
-  const jsonData = fs.readFileSync(dataPath);
+  const jsonData = fs.readFileSync("./tmp/flours.json");
   console.log("Consultando harinas: ", JSON.parse(jsonData));
   return JSON.parse(jsonData);
 };
