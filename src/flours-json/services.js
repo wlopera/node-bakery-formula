@@ -1,8 +1,10 @@
 const fs = require("fs");
 const { uuid } = require("uuidv4");
 const path = require("path");
+const rootDir = path.join(__dirname, "../");
 
-const dataPath = path.resolve("flours.json");
+const dataPath = path.resolve(`${rootDir}/flours.json`);
+console.log(11111, rootDir);
 
 const getAll = () => {
   const jsonData = fs.readFileSync(dataPath);
