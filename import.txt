@@ -63,6 +63,23 @@ $ npm init -y
  - Levantar servidor: npm run dev
 -----------------------------------------------------------------------------
 -----------------------------------------------------------------------------
+Publicar en Heroku: El repo debe ser: master
+-----------------------------------------------------------------------------
+1. Instalar Heroku (window: si no esta instalado)
+2. Levantar Heroku
+   > heroku login
+   
+   - Clonar heroku, si el proyecto no esta en un repo: 
+      > heroku git:clone -a node-bakery-formula 
+ 3. Deploy Heroku
+  > git add .
+  > git commit -am "make it better"
+  > git push heroku master
+  
+ Notas:
+   - Relanzar Heroku: > heroku restart
+   - Ver logs: heroku logs -n 200
+   - Procesos de consola de heroku: > heroku run rails console
 -----------------------------------------------------------------------------
 -----------------------------------------------------------------------------
 -----------------------------------------------------------------------------

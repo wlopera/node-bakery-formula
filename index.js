@@ -5,6 +5,7 @@ const { Config } = require("./src/config/index");
 const { FlourAPI } = require("./src/flours/index");
 const { IngredientAPI } = require("./src/ingredients/index");
 const { RecipeAPI } = require("./src/recipes/index");
+const { AuthAPI } = require("./src/auth/index");
 
 const app = express();
 app.use(cors());
@@ -16,6 +17,7 @@ app.use(express.json());
 FlourAPI(app);
 IngredientAPI(app);
 RecipeAPI(app);
+AuthAPI(app);
 
 // Levantar servidor
 app.listen(Config.port || 8000, () =>
