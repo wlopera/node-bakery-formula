@@ -11,16 +11,19 @@ const getAll = () => {
 
 const save = (data) => {
   try {
+    console.log("Agregando harina: ", data);
     const stringifyData = JSON.stringify(data, null, 4);
     fs.writeFileSync(dataPath, stringifyData);
-
+    console.log("Harina agregada: ", data);
     return true;
   } catch (err) {
+    console.log("Error agregando harina: ", err);
     return false;
   }
 };
 
 const create = (value) => {
+  console.log("Crear harina: ", value);
   try {
     let data = getAll();
     const id = uuid();
@@ -28,10 +31,15 @@ const create = (value) => {
       _id: id,
       ...value,
     };
+    console.log("Crear harina nueva: ", newValue);
     data.push(newValue);
+    console.log("Harinas incluyedo la nueva: ", data);
+
     if (save(data)) {
+      console.log("Harina creada: ", data);
       return id;
     }
+    console.log("Harinas no agregada: ");
     return -1;
   } catch (error) {
     console.log("Error creando harina:", error);
