@@ -6,6 +6,7 @@ const dataPath = path.resolve("./data/flours.json");
 
 const getAll = () => {
   const jsonData = fs.readFileSync(dataPath);
+  console.log("Consultando harinas: ", JSON.parse(jsonData));
   return JSON.parse(jsonData);
 };
 
