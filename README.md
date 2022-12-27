@@ -114,6 +114,7 @@ Package.json:
 Link de publicación del API: https://node-bakery-formula.herokuapp.com/
 ![Captura](https://user-images.githubusercontent.com/7141537/177861388-a0272745-8f8f-4a56-b174-ace9b5fcbcc4.PNG)
 
-
-
+-----
+# Comentar todo proceso MongoDB, debido a Heroku. Se paso todo MongoDB a trabajos con JSON. No se valida sincronización de datos (procesos commit)
+-----
 

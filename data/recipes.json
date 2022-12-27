@@ -1,0 +1,1183 @@
+[
+    {
+        "_id": "62c7678f924e0225942cf02b",
+        "name": "Baguetes",
+        "order": {
+            "amount": 20,
+            "perUnit": 300
+        },
+        "flours": [
+            {
+                "value": "62c447f9807e1c4d875232f7",
+                "ingredient": "Harina Panadera",
+                "percentage": 100
+            }
+        ],
+        "ingredients": [
+            {
+                "value": "62c44c01b3cf3e68f6f3a917",
+                "ingredient": "Agua",
+                "percentage": 60
+            },
+            {
+                "value": "62c44c5db07022920c59d410",
+                "ingredient": "Levadura",
+                "percentage": 1.8
+            },
+            {
+                "value": "62c4b840a151a94f3b405f4c",
+                "ingredient": "Sal",
+                "percentage": 1
+            }
+        ]
+    },
+    {
+        "_id": "62c767ad924e0225942cf02c",
+        "name": "Canilla",
+        "order": {
+            "amount": 7.1,
+            "perUnit": 300
+        },
+        "flours": [
+            {
+                "value": "62c447f9807e1c4d875232f7",
+                "ingredient": "Harina Panadera",
+                "percentage": 100
+            }
+        ],
+        "ingredients": [
+            {
+                "value": "62c44c01b3cf3e68f6f3a917",
+                "ingredient": "Agua",
+                "percentage": 52
+            },
+            {
+                "value": "62c44c5db07022920c59d410",
+                "ingredient": "Levadura",
+                "percentage": 2
+            },
+            {
+                "value": "62c4b840a151a94f3b405f4c",
+                "ingredient": "Sal",
+                "percentage": 1.8
+            },
+            {
+                "value": "62c4ba0ca151a94f3b405f4d",
+                "ingredient": "Azucar",
+                "percentage": 3.3
+            },
+            {
+                "value": "62c4ba45a151a94f3b405f52",
+                "ingredient": "Manteca Vegetal",
+                "percentage": 2.2
+            },
+            {
+                "value": "62c4ba4ea151a94f3b405f53",
+                "ingredient": "Huevos",
+                "percentage": 2.8
+            }
+        ]
+    },
+    {
+        "_id": "62c7687b924e0225942cf02d",
+        "name": "Pan de Ajo",
+        "order": {
+            "amount": 11.1,
+            "perUnit": 200
+        },
+        "flours": [
+            {
+                "value": "62c447f9807e1c4d875232f7",
+                "ingredient": "Harina Panadera",
+                "percentage": 97
+            },
+            {
+                "value": "62c44841807e1c4d875232f8",
+                "ingredient": "Afrecho",
+                "percentage": 3
+            }
+        ],
+        "ingredients": [
+            {
+                "value": "62c44c01b3cf3e68f6f3a917",
+                "ingredient": "Agua",
+                "percentage": 62
+            },
+            {
+                "value": "62c44c5db07022920c59d410",
+                "ingredient": "Levadura",
+                "percentage": 1.5
+            },
+            {
+                "value": "62c4b840a151a94f3b405f4c",
+                "ingredient": "Sal",
+                "percentage": 1.8
+            },
+            {
+                "value": "62c4ba69a151a94f3b405f57",
+                "ingredient": "Ajo Cortado",
+                "percentage": 4
+            }
+        ]
+    },
+    {
+        "_id": "62c768cc924e0225942cf02e",
+        "name": "Avena",
+        "order": {
+            "amount": 6.1,
+            "perUnit": 400
+        },
+        "flours": [
+            {
+                "value": "62c447f9807e1c4d875232f7",
+                "ingredient": "Harina Panadera",
+                "percentage": 75
+            },
+            {
+                "value": "62c44841807e1c4d875232f8",
+                "ingredient": "Afrecho",
+                "percentage": 5
+            },
+            {
+                "value": "62c4b73ca151a94f3b405f4a",
+                "ingredient": "Avena en Polvo",
+                "percentage": 20
+            }
+        ],
+        "ingredients": [
+            {
+                "value": "62c44c01b3cf3e68f6f3a917",
+                "ingredient": "Agua",
+                "percentage": 52
+            },
+            {
+                "value": "62c4ba14a151a94f3b405f4e",
+                "ingredient": "Leche en Polvo",
+                "percentage": 3
+            },
+            {
+                "value": "62c44c5db07022920c59d410",
+                "ingredient": "Levadura",
+                "percentage": 2
+            },
+            {
+                "value": "62c4b840a151a94f3b405f4c",
+                "ingredient": "Sal",
+                "percentage": 1.5
+            },
+            {
+                "value": "62c4ba1ea151a94f3b405f4f",
+                "ingredient": "Extracto Malta",
+                "percentage": 1.5
+            },
+            {
+                "value": "62c4ba27a151a94f3b405f50",
+                "ingredient": "Manteq/Margar",
+                "percentage": 3
+            },
+            {
+                "value": "62c4ba33a151a94f3b405f51",
+                "ingredient": "Avena en Remojo",
+                "percentage": 30
+            }
+        ]
+    },
+    {
+        "_id": "62c768ec924e0225942cf02f",
+        "name": "Gallego",
+        "order": {
+            "amount": 6.1,
+            "perUnit": 500
+        },
+        "flours": [
+            {
+                "value": "62c447f9807e1c4d875232f7",
+                "ingredient": "Harina Panadera",
+                "percentage": 87
+            },
+            {
+                "value": "62c44841807e1c4d875232f8",
+                "ingredient": "Afrecho",
+                "percentage": 3
+            },
+            {
+                "value": "62c4b74fa151a94f3b405f4b",
+                "ingredient": "Harina Centeno",
+                "percentage": 10
+            }
+        ],
+        "ingredients": [
+            {
+                "value": "62c44c01b3cf3e68f6f3a917",
+                "ingredient": "Agua",
+                "percentage": 63
+            },
+            {
+                "value": "62c44c5db07022920c59d410",
+                "ingredient": "Levadura",
+                "percentage": 1.5
+            },
+            {
+                "value": "62c4b840a151a94f3b405f4c",
+                "ingredient": "Sal",
+                "percentage": 1.8
+            }
+        ]
+    },
+    {
+        "_id": "62d081198cd73954dfb33d83",
+        "name": "Tunja - Piñita",
+        "order": {
+            "amount": 21.1,
+            "perUnit": 100
+        },
+        "flours": [
+            {
+                "value": "62c447f9807e1c4d875232f7",
+                "ingredient": "Harina Panadera",
+                "percentage": 100
+            }
+        ],
+        "ingredients": [
+            {
+                "value": "62c44c01b3cf3e68f6f3a917",
+                "ingredient": "Agua",
+                "percentage": "44"
+            },
+            {
+                "value": "62c44c5db07022920c59d410",
+                "ingredient": "Levadura",
+                "percentage": "4"
+            },
+            {
+                "value": "62c4b840a151a94f3b405f4c",
+                "ingredient": "Sal",
+                "percentage": "1"
+            },
+            {
+                "value": "62c4ba0ca151a94f3b405f4d",
+                "ingredient": "Azucar",
+                "percentage": "25"
+            },
+            {
+                "value": "62c4ba14a151a94f3b405f4e",
+                "ingredient": "Leche en Polvo",
+                "percentage": "1"
+            },
+            {
+                "value": "62c4ba27a151a94f3b405f50",
+                "ingredient": "Manteq/Margar",
+                "percentage": "6"
+            },
+            {
+                "value": "62c4ba4ea151a94f3b405f53",
+                "ingredient": "Huevos",
+                "percentage": "5"
+            },
+            {
+                "value": "62c4ba71a151a94f3b405f58",
+                "ingredient": "Anis en Granos",
+                "percentage": "2"
+            },
+            {
+                "value": "62c4ba7aa151a94f3b405f59",
+                "ingredient": "Esencia Vainilla",
+                "percentage": "0.2"
+            }
+        ]
+    },
+    {
+        "_id": "62d081d08cd73954dfb33d84",
+        "name": "Ambrosia",
+        "order": {
+            "amount": 21.1,
+            "perUnit": 120
+        },
+        "flours": [
+            {
+                "value": "62c447f9807e1c4d875232f7",
+                "ingredient": "Harina Panadera",
+                "percentage": 100
+            }
+        ],
+        "ingredients": [
+            {
+                "value": "62c44c01b3cf3e68f6f3a917",
+                "ingredient": "Agua",
+                "percentage": "20"
+            },
+            {
+                "value": "62c44c5db07022920c59d410",
+                "ingredient": "Levadura",
+                "percentage": "4"
+            },
+            {
+                "value": "62c4b840a151a94f3b405f4c",
+                "ingredient": "Sal",
+                "percentage": "1"
+            },
+            {
+                "value": "62c4ba0ca151a94f3b405f4d",
+                "ingredient": "Azucar",
+                "percentage": "30"
+            },
+            {
+                "value": "62c4ba14a151a94f3b405f4e",
+                "ingredient": "Leche en Polvo",
+                "percentage": "4.2"
+            },
+            {
+                "value": "62c4ba27a151a94f3b405f50",
+                "ingredient": "Manteq/Margar",
+                "percentage": "8.4"
+            },
+            {
+                "value": "62c4ba4ea151a94f3b405f53",
+                "ingredient": "Huevos",
+                "percentage": "9.4"
+            },
+            {
+                "value": "62c4ba71a151a94f3b405f58",
+                "ingredient": "Anis en Granos",
+                "percentage": "0.7"
+            },
+            {
+                "value": "62c4ba7aa151a94f3b405f59",
+                "ingredient": "Esencia Vainilla",
+                "percentage": "0.7"
+            },
+            {
+                "value": "62d081e18cd73954dfb33d85",
+                "ingredient": "Miel",
+                "percentage": "0.7"
+            },
+            {
+                "value": "62d081f58cd73954dfb33d86",
+                "ingredient": "Fr conf/ Pasitas",
+                "percentage": "20"
+            },
+            {
+                "value": "62d0820f8cd73954dfb33d87",
+                "ingredient": "Jug Naranja/Limón",
+                "percentage": "25"
+            }
+        ]
+    },
+    {
+        "_id": "62d0836d8cd73954dfb33d89",
+        "name": "Pita",
+        "order": {
+            "amount": 16.1,
+            "perUnit": 130
+        },
+        "flours": [
+            {
+                "value": "62c447f9807e1c4d875232f7",
+                "ingredient": "Harina Panadera",
+                "percentage": 95
+            },
+            {
+                "value": "62c44841807e1c4d875232f8",
+                "ingredient": "Afrecho",
+                "percentage": 5
+            }
+        ],
+        "ingredients": [
+            {
+                "value": "62c44c01b3cf3e68f6f3a917",
+                "ingredient": "Agua",
+                "percentage": "57"
+            },
+            {
+                "value": "62c44c5db07022920c59d410",
+                "ingredient": "Levadura",
+                "percentage": "2"
+            },
+            {
+                "value": "62c4b840a151a94f3b405f4c",
+                "ingredient": "Sal",
+                "percentage": "1.8"
+            },
+            {
+                "value": "62c4ba61a151a94f3b405f56",
+                "ingredient": "Aceite",
+                "percentage": "2"
+            }
+        ]
+    },
+    {
+        "_id": "62d084298cd73954dfb33d8a",
+        "name": "Provenzal",
+        "order": {
+            "amount": 11.1,
+            "perUnit": 200
+        },
+        "flours": [
+            {
+                "value": "62c447f9807e1c4d875232f7",
+                "ingredient": "Harina Panadera",
+                "percentage": 95
+            },
+            {
+                "value": "62c44841807e1c4d875232f8",
+                "ingredient": "Afrecho",
+                "percentage": 5
+            }
+        ],
+        "ingredients": [
+            {
+                "value": "62c44c01b3cf3e68f6f3a917",
+                "ingredient": "Agua",
+                "percentage": "63"
+            },
+            {
+                "value": "62c44c5db07022920c59d410",
+                "ingredient": "Levadura",
+                "percentage": "1.5"
+            },
+            {
+                "value": "62c4b840a151a94f3b405f4c",
+                "ingredient": "Sal",
+                "percentage": "1.8"
+            },
+            {
+                "value": "62c4ba27a151a94f3b405f50",
+                "ingredient": "Manteq/Margar",
+                "percentage": "1.5"
+            },
+            {
+                "value": "62ca0e04917e0a896811899d",
+                "ingredient": "Hierbas fresca ",
+                "percentage": "0.35"
+            }
+        ]
+    },
+    {
+        "_id": "62d085248cd73954dfb33d8b",
+        "name": "Biscuit de Papas",
+        "order": {
+            "amount": 21.1,
+            "perUnit": 80
+        },
+        "flours": [
+            {
+                "value": "62c447f9807e1c4d875232f7",
+                "ingredient": "Harina Panadera",
+                "percentage": 100
+            }
+        ],
+        "ingredients": [
+            {
+                "value": "62c44c01b3cf3e68f6f3a917",
+                "ingredient": "Agua",
+                "percentage": "42"
+            },
+            {
+                "value": "62c44c5db07022920c59d410",
+                "ingredient": "Levadura",
+                "percentage": "1.6"
+            },
+            {
+                "value": "62c4b840a151a94f3b405f4c",
+                "ingredient": "Sal",
+                "percentage": "2.5"
+            },
+            {
+                "value": "62c4ba0ca151a94f3b405f4d",
+                "ingredient": "Azucar",
+                "percentage": "8"
+            },
+            {
+                "value": "62c4ba27a151a94f3b405f50",
+                "ingredient": "Manteq/Margar",
+                "percentage": "7"
+            },
+            {
+                "value": "62c4ba4ea151a94f3b405f53",
+                "ingredient": "Huevos",
+                "percentage": "8"
+            },
+            {
+                "value": "62c4ba5aa151a94f3b405f55",
+                "ingredient": "Pure de Papas",
+                "percentage": "38"
+            },
+            {
+                "value": "62c4ba61a151a94f3b405f56",
+                "ingredient": "Aceite",
+                "percentage": "5"
+            }
+        ]
+    },
+    {
+        "_id": "62d085918cd73954dfb33d8c",
+        "name": "Vienes",
+        "order": {
+            "amount": 21.1,
+            "perUnit": 100
+        },
+        "flours": [
+            {
+                "value": "62c447f9807e1c4d875232f7",
+                "ingredient": "Harina Panadera",
+                "percentage": 100
+            }
+        ],
+        "ingredients": [
+            {
+                "value": "62c44c01b3cf3e68f6f3a917",
+                "ingredient": "Agua",
+                "percentage": "55"
+            },
+            {
+                "value": "62c44c5db07022920c59d410",
+                "ingredient": "Levadura",
+                "percentage": "1.5"
+            },
+            {
+                "value": "62c4b840a151a94f3b405f4c",
+                "ingredient": "Sal",
+                "percentage": "1.8"
+            },
+            {
+                "value": "62c4ba0ca151a94f3b405f4d",
+                "ingredient": "Azucar",
+                "percentage": "4"
+            },
+            {
+                "value": "62c4ba14a151a94f3b405f4e",
+                "ingredient": "Leche en Polvo",
+                "percentage": "5"
+            },
+            {
+                "value": "62c4ba27a151a94f3b405f50",
+                "ingredient": "Manteq/Margar",
+                "percentage": "5"
+            }
+        ]
+    },
+    {
+        "_id": "62dd6323400429003d150fe5",
+        "name": "Campesino",
+        "order": {
+            "amount": 4,
+            "perUnit": 250
+        },
+        "flours": [
+            {
+                "value": "62c447f9807e1c4d875232f7",
+                "ingredient": "Harina Panadera",
+                "percentage": "100"
+            }
+        ],
+        "ingredients": [
+            {
+                "value": "62c44c01b3cf3e68f6f3a917",
+                "ingredient": "Agua",
+                "percentage": "62"
+            },
+            {
+                "value": "62c44c5db07022920c59d410",
+                "ingredient": "Levadura",
+                "percentage": "1"
+            },
+            {
+                "value": "62c4b840a151a94f3b405f4c",
+                "ingredient": "Sal",
+                "percentage": "1.8"
+            },
+            {
+                "value": "62c4ba0ca151a94f3b405f4d",
+                "ingredient": "Azucar",
+                "percentage": "3"
+            },
+            {
+                "value": "62c4ba45a151a94f3b405f52",
+                "ingredient": "Manteca Vegetal",
+                "percentage": "4"
+            },
+            {
+                "value": "62d078a9f9fde0c2807a5757",
+                "ingredient": "Prefermento",
+                "percentage": "166"
+            }
+        ]
+    },
+    {
+        "_id": "62dd66fb400429003d150fe6",
+        "name": "Jojoto",
+        "order": {
+            "amount": 5,
+            "perUnit": 250
+        },
+        "flours": [
+            {
+                "value": "62c447f9807e1c4d875232f7",
+                "ingredient": "Harina Panadera",
+                "percentage": "68"
+            },
+            {
+                "value": "62ca0e83917e0a89681189a0",
+                "ingredient": "Harina de maiz",
+                "percentage": "32"
+            }
+        ],
+        "ingredients": [
+            {
+                "value": "62c44c01b3cf3e68f6f3a917",
+                "ingredient": "Agua",
+                "percentage": "44"
+            },
+            {
+                "value": "62c44c5db07022920c59d410",
+                "ingredient": "Levadura",
+                "percentage": "2.5"
+            },
+            {
+                "value": "62c4b840a151a94f3b405f4c",
+                "ingredient": "Sal",
+                "percentage": "1.5"
+            },
+            {
+                "value": "62c4ba0ca151a94f3b405f4d",
+                "ingredient": "Azucar",
+                "percentage": "15"
+            },
+            {
+                "value": "62c4ba14a151a94f3b405f4e",
+                "ingredient": "Leche en Polvo",
+                "percentage": "4"
+            },
+            {
+                "value": "62c4ba27a151a94f3b405f50",
+                "ingredient": "Manteq/Margar",
+                "percentage": "8"
+            },
+            {
+                "value": "62d078a9f9fde0c2807a5757",
+                "ingredient": "Prefermento",
+                "percentage": "22"
+            }
+        ]
+    },
+    {
+        "_id": "62e005dc0e28ed6bba2820df",
+        "name": "Pan de leche ",
+        "order": {
+            "amount": 7,
+            "perUnit": 200
+        },
+        "flours": [
+            {
+                "value": "62c447f9807e1c4d875232f7",
+                "ingredient": "Harina Panadera",
+                "percentage": "100"
+            }
+        ],
+        "ingredients": [
+            {
+                "value": "62c44c01b3cf3e68f6f3a917",
+                "ingredient": "Agua",
+                "percentage": "31"
+            },
+            {
+                "value": "62c44c5db07022920c59d410",
+                "ingredient": "Levadura",
+                "percentage": "2.5"
+            },
+            {
+                "value": "62c4b840a151a94f3b405f4c",
+                "ingredient": "Sal",
+                "percentage": "1"
+            },
+            {
+                "value": "62c4ba0ca151a94f3b405f4d",
+                "ingredient": "Azucar",
+                "percentage": "15"
+            },
+            {
+                "value": "62c4ba14a151a94f3b405f4e",
+                "ingredient": "Leche en Polvo",
+                "percentage": "6"
+            },
+            {
+                "value": "62c4ba27a151a94f3b405f50",
+                "ingredient": "Manteq/Margar",
+                "percentage": "10"
+            },
+            {
+                "value": "62c4ba4ea151a94f3b405f53",
+                "ingredient": "Huevos",
+                "percentage": "20"
+            },
+            {
+                "value": "62d078a9f9fde0c2807a5757",
+                "ingredient": "Prefermento",
+                "percentage": "20"
+            }
+        ]
+    },
+    {
+        "_id": "62e32433d3dd0f2e34b63829",
+        "name": "Roles de Canela",
+        "order": {
+            "amount": 12,
+            "perUnit": 80
+        },
+        "flours": [
+            {
+                "value": "62c447f9807e1c4d875232f7",
+                "ingredient": "Harina Panadera",
+                "percentage": "100"
+            }
+        ],
+        "ingredients": [
+            {
+                "value": "62c44c01b3cf3e68f6f3a917",
+                "ingredient": "Agua",
+                "percentage": "42"
+            },
+            {
+                "value": "62c44c5db07022920c59d410",
+                "ingredient": "Levadura",
+                "percentage": "1.5"
+            },
+            {
+                "value": "62c4b840a151a94f3b405f4c",
+                "ingredient": "Sal",
+                "percentage": "0.5"
+            },
+            {
+                "value": "62c4ba0ca151a94f3b405f4d",
+                "ingredient": "Azucar",
+                "percentage": "20"
+            },
+            {
+                "value": "62c4ba14a151a94f3b405f4e",
+                "ingredient": "Leche en Polvo",
+                "percentage": "5"
+            },
+            {
+                "value": "62c4ba27a151a94f3b405f50",
+                "ingredient": "Manteq/Margar",
+                "percentage": "15"
+            },
+            {
+                "value": "62c4ba4ea151a94f3b405f53",
+                "ingredient": "Huevos",
+                "percentage": "15"
+            },
+            {
+                "value": "62c4ba7aa151a94f3b405f59",
+                "ingredient": "Esencia Vainilla",
+                "percentage": "1.0"
+            }
+        ]
+    },
+    {
+        "_id": "62e3249cd3dd0f2e34b6382a",
+        "name": "Pan de cebola",
+        "order": {
+            "amount": 10,
+            "perUnit": 0
+        },
+        "flours": [],
+        "ingredients": []
+    },
+    {
+        "_id": "62e4403f62d9447c18d60cdb",
+        "name": "Pan de queso",
+        "order": {
+            "amount": 5,
+            "perUnit": 200
+        },
+        "flours": [
+            {
+                "value": "62c447f9807e1c4d875232f7",
+                "ingredient": "Harina Panadera",
+                "percentage": "100"
+            }
+        ],
+        "ingredients": [
+            {
+                "value": "62c44c01b3cf3e68f6f3a917",
+                "ingredient": "Agua",
+                "percentage": "53"
+            },
+            {
+                "value": "62c44c5db07022920c59d410",
+                "ingredient": "Levadura",
+                "percentage": "2.5"
+            },
+            {
+                "value": "62c4b840a151a94f3b405f4c",
+                "ingredient": "Sal",
+                "percentage": "1.5"
+            },
+            {
+                "value": "62c4ba0ca151a94f3b405f4d",
+                "ingredient": "Azucar",
+                "percentage": "4"
+            },
+            {
+                "value": "62c4ba14a151a94f3b405f4e",
+                "ingredient": "Leche en Polvo",
+                "percentage": "1.5"
+            },
+            {
+                "value": "62c4ba27a151a94f3b405f50",
+                "ingredient": "Manteq/Margar",
+                "percentage": "8"
+            },
+            {
+                "value": "62c4ba4ea151a94f3b405f53",
+                "ingredient": "Huevos",
+                "percentage": "7"
+            },
+            {
+                "value": "62d078a9f9fde0c2807a5757",
+                "ingredient": "Prefermento",
+                "percentage": "15"
+            }
+        ]
+    },
+    {
+        "_id": "62e45e2fc61d9293310909ab",
+        "name": "Focaccia",
+        "order": {
+            "amount": 300,
+            "perUnit": 1
+        },
+        "flours": [
+            {
+                "value": "62c447f9807e1c4d875232f7",
+                "ingredient": "Harina Panadera",
+                "percentage": "100"
+            }
+        ],
+        "ingredients": [
+            {
+                "value": "62c44c01b3cf3e68f6f3a917",
+                "ingredient": "Agua",
+                "percentage": "56"
+            },
+            {
+                "value": "62c44c5db07022920c59d410",
+                "ingredient": "Levadura",
+                "percentage": "2"
+            },
+            {
+                "value": "62c4b840a151a94f3b405f4c",
+                "ingredient": "Sal",
+                "percentage": "1.5"
+            },
+            {
+                "value": "62c4ba0ca151a94f3b405f4d",
+                "ingredient": "Azucar",
+                "percentage": "3"
+            },
+            {
+                "value": "62ca0d98917e0a8968118998",
+                "ingredient": "Aceite vegetal ",
+                "percentage": "5"
+            },
+            {
+                "value": "62ca0e04917e0a896811899d",
+                "ingredient": "Hierbas fresca ",
+                "percentage": "1"
+            },
+            {
+                "value": "62d078a9f9fde0c2807a5757",
+                "ingredient": "Prefermento",
+                "percentage": "15"
+            }
+        ]
+    },
+    {
+        "_id": "62e68af3970b5e2142de44fa",
+        "name": "Pesto",
+        "order": {
+            "amount": 10,
+            "perUnit": 200
+        },
+        "flours": [
+            {
+                "value": "62c447f9807e1c4d875232f7",
+                "ingredient": "Harina Panadera",
+                "percentage": "97"
+            },
+            {
+                "value": "62c44841807e1c4d875232f8",
+                "ingredient": "Afrecho",
+                "percentage": "3"
+            }
+        ],
+        "ingredients": [
+            {
+                "value": "62c44c01b3cf3e68f6f3a917",
+                "ingredient": "Agua",
+                "percentage": "51"
+            },
+            {
+                "value": "62c44c5db07022920c59d410",
+                "ingredient": "Levadura",
+                "percentage": "2"
+            },
+            {
+                "value": "62c4b840a151a94f3b405f4c",
+                "ingredient": "Sal",
+                "percentage": "1.5"
+            },
+            {
+                "value": "62ca0d26917e0a8968118993",
+                "ingredient": "Salsa pesto",
+                "percentage": "7"
+            },
+            {
+                "value": "62d078a9f9fde0c2807a5757",
+                "ingredient": "Prefermento",
+                "percentage": "15"
+            }
+        ]
+    },
+    {
+        "_id": "62e94e9b9c7b53e30b494345",
+        "name": "SANDWICH",
+        "order": {
+            "amount": 3,
+            "perUnit": 350
+        },
+        "flours": [
+            {
+                "value": "62c447f9807e1c4d875232f7",
+                "ingredient": "Harina Panadera",
+                "percentage": "100"
+            }
+        ],
+        "ingredients": [
+            {
+                "value": "62c44c01b3cf3e68f6f3a917",
+                "ingredient": "Agua",
+                "percentage": "62"
+            },
+            {
+                "value": "62c44c5db07022920c59d410",
+                "ingredient": "Levadura",
+                "percentage": "1"
+            },
+            {
+                "value": "62c4b840a151a94f3b405f4c",
+                "ingredient": "Sal",
+                "percentage": "1.8"
+            },
+            {
+                "value": "62c4ba0ca151a94f3b405f4d",
+                "ingredient": "Azucar",
+                "percentage": "3"
+            },
+            {
+                "value": "62c4ba14a151a94f3b405f4e",
+                "ingredient": "Leche en Polvo",
+                "percentage": "2"
+            },
+            {
+                "value": "62c4ba27a151a94f3b405f50",
+                "ingredient": "Manteq/Margar",
+                "percentage": "4"
+            },
+            {
+                "value": "62d078a9f9fde0c2807a5757",
+                "ingredient": "Prefermento",
+                "percentage": "20"
+            }
+        ]
+    },
+    {
+        "_id": "62e954529c7b53e30b494346",
+        "name": "Ciabatta",
+        "order": {
+            "amount": 5,
+            "perUnit": 150
+        },
+        "flours": [
+            {
+                "value": "62c447f9807e1c4d875232f7",
+                "ingredient": "Harina Panadera",
+                "percentage": "100"
+            }
+        ],
+        "ingredients": [
+            {
+                "value": "62c44c01b3cf3e68f6f3a917",
+                "ingredient": "Agua",
+                "percentage": "50"
+            },
+            {
+                "value": "62c44c5db07022920c59d410",
+                "ingredient": "Levadura",
+                "percentage": "1"
+            },
+            {
+                "value": "62c4b840a151a94f3b405f4c",
+                "ingredient": "Sal",
+                "percentage": "2.8"
+            },
+            {
+                "value": "62c4ba1ea151a94f3b405f4f",
+                "ingredient": "Extracto Malta",
+                "percentage": "1.5"
+            },
+            {
+                "value": "62d078a9f9fde0c2807a5757",
+                "ingredient": "Prefermento",
+                "percentage": "100"
+            }
+        ]
+    },
+    {
+        "_id": "62efc789e189c25ad14e3b28",
+        "name": "Cachito",
+        "order": {
+            "amount": 8,
+            "perUnit": 80
+        },
+        "flours": [
+            {
+                "value": "62c447f9807e1c4d875232f7",
+                "ingredient": "Harina Panadera",
+                "percentage": "100"
+            }
+        ],
+        "ingredients": [
+            {
+                "value": "62c44c01b3cf3e68f6f3a917",
+                "ingredient": "Agua",
+                "percentage": "60"
+            },
+            {
+                "value": "62c44c5db07022920c59d410",
+                "ingredient": "Levadura",
+                "percentage": "2.5"
+            },
+            {
+                "value": "62c4b840a151a94f3b405f4c",
+                "ingredient": "Sal",
+                "percentage": "3"
+            },
+            {
+                "value": "62c4ba0ca151a94f3b405f4d",
+                "ingredient": "Azucar",
+                "percentage": "5"
+            },
+            {
+                "value": "62c4ba1ea151a94f3b405f4f",
+                "ingredient": "Extracto Malta",
+                "percentage": "1"
+            },
+            {
+                "value": "62c4ba27a151a94f3b405f50",
+                "ingredient": "Manteq/Margar",
+                "percentage": "10"
+            },
+            {
+                "value": "62ca0d60917e0a8968118995",
+                "ingredient": "Relax ",
+                "percentage": "0.4"
+            },
+            {
+                "value": "62d078a9f9fde0c2807a5757",
+                "ingredient": "Prefermento",
+                "percentage": "145"
+            }
+        ]
+    },
+    {
+        "_id": "62efdcf9da3898e9ee0e3b0c",
+        "name": "Pan de Cebolla",
+        "order": {
+            "amount": 1,
+            "perUnit": 250
+        },
+        "flours": [
+            {
+                "value": "62c447f9807e1c4d875232f7",
+                "ingredient": "Harina Panadera",
+                "percentage": "100"
+            }
+        ],
+        "ingredients": [
+            {
+                "value": "62c44c01b3cf3e68f6f3a917",
+                "ingredient": "Agua",
+                "percentage": "40"
+            },
+            {
+                "value": "62c44c5db07022920c59d410",
+                "ingredient": "Levadura",
+                "percentage": "1.5"
+            },
+            {
+                "value": "62c4b840a151a94f3b405f4c",
+                "ingredient": "Sal",
+                "percentage": "1.8"
+            },
+            {
+                "value": "62c4ba61a151a94f3b405f56",
+                "ingredient": "Aceite",
+                "percentage": "3"
+            },
+            {
+                "value": "62ca0cfe917e0a8968118991",
+                "ingredient": "Cebolla ",
+                "percentage": "25"
+            },
+            {
+                "value": "62d078a9f9fde0c2807a5757",
+                "ingredient": "Prefermento",
+                "percentage": "30"
+            }
+        ]
+    },
+    {
+        "_id": "62f30d0cffaf4cdae2df8b75",
+        "name": "Pizza Napolitana ",
+        "order": {
+            "amount": 1,
+            "perUnit": 450
+        },
+        "flours": [
+            {
+                "value": "62c447f9807e1c4d875232f7",
+                "ingredient": "Harina Panadera",
+                "percentage": "100"
+            }
+        ],
+        "ingredients": [
+            {
+                "value": "62c44c01b3cf3e68f6f3a917",
+                "ingredient": "Agua",
+                "percentage": "71.1"
+            },
+            {
+                "value": "62c44c5db07022920c59d410",
+                "ingredient": "Levadura",
+                "percentage": "1"
+            },
+            {
+                "value": "62c4b840a151a94f3b405f4c",
+                "ingredient": "Sal",
+                "percentage": "2.2"
+            },
+            {
+                "value": "62c4ba61a151a94f3b405f56",
+                "ingredient": "Aceite",
+                "percentage": "3.6"
+            },
+            {
+                "value": "62f30c96ffaf4cdae2df8b74",
+                "ingredient": "Aji chombo",
+                "percentage": "2"
+            }
+        ]
+    }
+]
