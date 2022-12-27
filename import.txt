@@ -11,10 +11,17 @@ Crear proyecto y base de datos en Mongo Atlas
       - Create a database user: user/password: admin/_PASSWORD_
  6.- Metodo de conexión: Mongo para App (JS)
     - mongodb+srv://admin:<password>@cluster0.naqufnx.mongodb.net/?retryWrites=true&w=majority 
-
 -----------------------------------------------------------------------------
 
 -----------------------------------------------------------------------------
+Crear proyecto y uso de JSON para la data (si no requiero uso de MONGODB)
+-----------------------------------------------------------------------------
+ 1.- Crear routes
+ 2.- Crear contolador
+ 3.- Crear servicios
+
+-----------------------------------------------------------------------------
+
 -----------------------------------------------------------------------------
 Crear Proyecto Node en VSC 
 -----------------------------------------------------------------------------
@@ -39,6 +46,7 @@ $ npm init -y
   - dotenv: npm i dotend  -> 16.0.1
   - nodemon: npm i nodemon --save-dev (solo para desarrollo) -> 2.0.18
   - http-errors: mp, i http-errors -> 2.0.0
+  - uuidv4: nom i uuidv4 -> 6.2.13
 
 -----------------------------------------------------------------------------
 - Agregar archivo: .gitignore -> control de data al repo
@@ -48,9 +56,17 @@ $ npm init -y
   - src
     - common
     - config
+
+    # Para uso de MONGODB
     - database
     - flours
     - ingredients
+    - recipes
+    
+    # Para uso de JSON
+    - flours-json
+    - ingredients-json
+    - recipes-json
 
 -----------------------------------------------------------------------------
  - Crear servidor con express
