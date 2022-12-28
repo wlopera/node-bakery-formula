@@ -105,7 +105,7 @@ Publicar en Heroku: El repo debe ser: master
 Publicar en Vercel: El repo debe ser: master
 -----------------------------------------------------------------------------
 - Guardar en master o rama de Github
-- Crear vercel.json
+- Crear vercel.json:
 {
   "version": 2,
   "builds": [
