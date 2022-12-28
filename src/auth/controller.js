@@ -5,15 +5,15 @@ const jwt = require("jsonwebtoken");
 
 const TOKEN_KEY = "XaTvnErxRETbVcqaLI5dqMI115eNlp5y";
 
-// const getUsers = async (req, res) => {
-//   try {
-//     const users = await AuthService.getAll();
-//     Response.success(res, 200, "Lista de usuarios", users);
-//   } catch (error) {
-//     console.error(error);
-//     Response.error(res);
-//   }
-// };
+const getUsers = async (req, res) => {
+  try {
+    const users = await AuthService.getAll();
+    Response.success(res, 200, "Lista de usuarios", users);
+  } catch (error) {
+    console.error(error);
+    Response.error(res);
+  }
+};
 
 const login = async (req, res) => {
   try {
@@ -47,6 +47,6 @@ const login = async (req, res) => {
 };
 
 module.exports.AuthController = {
-  // getUsers,
+  getUsers,
   login,
 };
