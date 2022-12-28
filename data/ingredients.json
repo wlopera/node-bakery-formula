@@ -1,0 +1,134 @@
+[
+  {
+    "_id": "62c44c01b3cf3e68f6f3a917",
+    "label": "Agua"
+  },
+  {
+    "_id": "62c44c5db07022920c59d410",
+    "label": "Levadura"
+  },
+  {
+    "_id": "62c4b840a151a94f3b405f4c",
+    "label": "Sal"
+  },
+  {
+    "_id": "62c4ba0ca151a94f3b405f4d",
+    "label": "Azucar"
+  },
+  {
+    "_id": "62c4ba14a151a94f3b405f4e",
+    "label": "Leche en Polvo"
+  },
+  {
+    "_id": "62c4ba1ea151a94f3b405f4f",
+    "label": "Extracto Malta"
+  },
+  {
+    "_id": "62c4ba27a151a94f3b405f50",
+    "label": "Manteq/Margar"
+  },
+  {
+    "_id": "62c4ba33a151a94f3b405f51",
+    "label": "Avena en Remojo"
+  },
+  {
+    "_id": "62c4ba45a151a94f3b405f52",
+    "label": "Manteca Vegetal"
+  },
+  {
+    "_id": "62c4ba4ea151a94f3b405f53",
+    "label": "Huevos"
+  },
+  {
+    "_id": "62c4ba5aa151a94f3b405f55",
+    "label": "Pure de Papas"
+  },
+  {
+    "_id": "62c4ba61a151a94f3b405f56",
+    "label": "Aceite"
+  },
+  {
+    "_id": "62c4ba69a151a94f3b405f57",
+    "label": "Ajo Cortado"
+  },
+  {
+    "_id": "62c4ba71a151a94f3b405f58",
+    "label": "Anis en Granos"
+  },
+  {
+    "_id": "62c4ba7aa151a94f3b405f59",
+    "label": "Esencia Vainilla"
+  },
+  {
+    "_id": "62ca0ca3917e0a896811898f",
+    "label": "Zumo de limon"
+  },
+  {
+    "_id": "62ca0cde917e0a8968118990",
+    "label": "Tocineta"
+  },
+  {
+    "_id": "62ca0cfe917e0a8968118991",
+    "label": "Cebolla "
+  },
+  {
+    "_id": "62ca0d26917e0a8968118993",
+    "label": "Salsa pesto"
+  },
+  {
+    "_id": "62ca0d55917e0a8968118994",
+    "label": "Papelón "
+  },
+  {
+    "_id": "62ca0d60917e0a8968118995",
+    "label": "Relax "
+  },
+  {
+    "_id": "62ca0d6e917e0a8968118996",
+    "label": "Jamón picado"
+  },
+  {
+    "_id": "62ca0d98917e0a8968118998",
+    "label": "Aceite vegetal "
+  },
+  {
+    "_id": "62ca0da2917e0a8968118999",
+    "label": "Canela"
+  },
+  {
+    "_id": "62ca0dae917e0a896811899a",
+    "label": "Azucar morena"
+  },
+  {
+    "_id": "62ca0dbb917e0a896811899b",
+    "label": "Leche liquida"
+  },
+  {
+    "_id": "62ca0def917e0a896811899c",
+    "label": "Queso blanco"
+  },
+  {
+    "_id": "62ca0e04917e0a896811899d",
+    "label": "Hierbas fresca "
+  },
+  {
+    "_id": "62d078a9f9fde0c2807a5757",
+    "label": "Prefermento"
+  },
+  {
+    "_id": "62d081e18cd73954dfb33d85",
+    "label": "Miel"
+  },
+  {
+    "_id": "62d081f58cd73954dfb33d86",
+    "label": "Fr conf/ Pasitas"
+  },
+  {
+    "_id": "62d0820f8cd73954dfb33d87",
+    "label": "Jug Naranja/Limón"
+  },
+  {
+    "_id": "62f30c96ffaf4cdae2df8b74",
+    "label": "Aji chombo"
+  }
+]

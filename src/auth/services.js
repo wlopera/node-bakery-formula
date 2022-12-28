@@ -23,6 +23,6 @@ const login = (username, password) => {
 };
 
 module.exports.AuthService = {
-  getAll,
+  // getAll,
   login,
 };

@@ -11,10 +11,17 @@ Crear proyecto y base de datos en Mongo Atlas
       - Create a database user: user/password: admin/_PASSWORD_
  6.- Metodo de conexión: Mongo para App (JS)
     - mongodb+srv://admin:<password>@cluster0.naqufnx.mongodb.net/?retryWrites=true&w=majority 
-
 -----------------------------------------------------------------------------
 
 -----------------------------------------------------------------------------
+Crear proyecto y uso de JSON para la data (si no requiero uso de MONGODB)
+-----------------------------------------------------------------------------
+ 1.- Crear routes
+ 2.- Crear contolador
+ 3.- Crear servicios
+
+-----------------------------------------------------------------------------
+
 -----------------------------------------------------------------------------
 Crear Proyecto Node en VSC 
 -----------------------------------------------------------------------------
@@ -39,6 +46,7 @@ $ npm init -y
   - dotenv: npm i dotend  -> 16.0.1
   - nodemon: npm i nodemon --save-dev (solo para desarrollo) -> 2.0.18
   - http-errors: mp, i http-errors -> 2.0.0
+  - uuidv4: nom i uuidv4 -> 6.2.13
 
 -----------------------------------------------------------------------------
 - Agregar archivo: .gitignore -> control de data al repo
@@ -48,9 +56,17 @@ $ npm init -y
   - src
     - common
     - config
+
+    # Para uso de MONGODB
     - database
     - flours
     - ingredients
+    - recipes
+    
+    # Para uso de JSON
+    - flours-json
+    - ingredients-json
+    - recipes-json
 
 -----------------------------------------------------------------------------
  - Crear servidor con express
@@ -71,6 +87,7 @@ Publicar en Heroku: El repo debe ser: master
    
    - Clonar heroku, si el proyecto no esta en un repo: 
       > heroku git:clone -a node-bakery-formula 
+      > cd node-bakery-formula
  3. Deploy Heroku
   > git add .
   > git commit -am "make it better"
@@ -78,8 +95,34 @@ Publicar en Heroku: El repo debe ser: master
   
  Notas:
    - Relanzar Heroku: > heroku restart
-   - Ver logs: heroku logs -n 200
+   - Ver logs: heroku logs -n 200  / heroku logs --tail
    - Procesos de consola de heroku: > heroku run rails console
+   - Recordar tener el proyecto en master
+   - heroku git:remote -a api-rest-example-wlopera
+   - heroku ps:scale web=1
+
 -----------------------------------------------------------------------------
+Publicar en Vercel: El repo debe ser: master
+-----------------------------------------------------------------------------
+- Guardar en master o rama de Github
+- Crear vercel.json:
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "./index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ]
+}
+- En vercel importar y probar
+-----------------------------------------------------------------------------
+
 -----------------------------------------------------------------------------
 -----------------------------------------------------------------------------
