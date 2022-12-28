@@ -100,6 +100,28 @@ Publicar en Heroku: El repo debe ser: master
    - Recordar tener el proyecto en master
    - heroku git:remote -a api-rest-example-wlopera
    - heroku ps:scale web=1
+
+-----------------------------------------------------------------------------
+Publicar en Vercel: El repo debe ser: master
+-----------------------------------------------------------------------------
+- Guardar en master o rama de Github
+- Crear vercel.json
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "./index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ]
+}
+- En vercel importar y probar
 -----------------------------------------------------------------------------
 
 -----------------------------------------------------------------------------
