@@ -1,11 +1,11 @@
-// const { Database } = require("../database/index");
+const { Database } = require("../database/index");
 
-// const COLLECTION = "Users";
+const COLLECTION = "Users";
 
-// const getAll = async () => {
-//   const collection = await Database(COLLECTION);
-//   return await collection.find({}).toArray();
-// };
+const getAll = async () => {
+  const collection = await Database(COLLECTION);
+  return await collection.find({}).toArray();
+};
 
 const login = (username, password) => {
   if (username === "admin" && password === "4f63d12aebdfbf3289ae8cc77e67b42d") {

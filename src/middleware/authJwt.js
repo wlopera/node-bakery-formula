@@ -7,12 +7,12 @@ const TOKEN_KEY = "XaTvnErxRETbVcqaLI5dqMI115eNlp5y";
 const verifyToken = (req, res, next) => {
   const authHeader = req.headers["authorization"];
   const token = authHeader && authHeader.split(" ")[1];
-  // console.log("authHeader:", authHeader);
-  // console.log("token:", token);
+  console.log("authHeader:", authHeader);
+  console.log("token:", token);
 
   if (token) {
     jwt.verify(token, TOKEN_KEY, (err, user) => {
-      //console.log(12345678, err);
+      console.log(12345678, err);
       if (err) {
         Response.error(res, {
           statusCode: 403,
@@ -20,7 +20,7 @@ const verifyToken = (req, res, next) => {
         });
         return;
       }
-      // console.log("user:", user);
+      console.log("user:", user);
       req.user = user;
       next();
     });
