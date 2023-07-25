@@ -68,7 +68,7 @@ $ npm init -y
  - Levantar servidor: npm run dev
 ```
 
-## Api Harias. Ejemplo 
+## Api Harinas. Ejemplo 
 ![Captura1](https://user-images.githubusercontent.com/7141537/177805258-6ba2d810-6faa-467a-bd21-8362142820d4.PNG)
 ![Captura](https://user-images.githubusercontent.com/7141537/177805263-f2f66598-9d59-406f-b474-5337dec30f02.PNG)
 
